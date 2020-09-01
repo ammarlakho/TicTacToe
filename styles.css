@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#gameBoard {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 130px 130px 130px;
+}
+
+.cells {
+    border: 1px solid black;
+    padding: 50px 5px;
+    /* font-size: 50px; */
+}
